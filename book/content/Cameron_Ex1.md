@@ -4,18 +4,32 @@ Climate change is a phenomenon which most people have become very aware of in re
 
 ## The Simplest Climate Model 
 In order to understand how the climate is affected by human activity, we need to develop a model of the Earth’s temperature. We’ll start with the simplest case by considering the Earth to be a spherical black body absorbing radiation from the sun. We begin with a radiation balance problem where the energy absorbed by the Earth must be equal to the energy emitted (equation 1)
-    (1) P_a=P_e
+"\n",
+    "```{math}\n",
+    ":label: radiationbalance\n",
+    "\P_a=P_e\n",
+    "```\n",
 These terms are further defined by equations 2 and 3 
-	(2) P_a=aSA_n
-	(3) P_e=ε_e σT^4 A_tot
-Where a is the solar absorptivity of the Earth, S is the solar energy reaching the Earth, and A_n is the surface area of the earth which is perpendicular to the sun (i.e. a circular cross section). In equation 3, ε_e is a measure of the emissivity of the earth, σ is the Stefan-Boltzmann constant, T is the temperature of the Earth, and A_tot is the total surface area of the planet (which we will model as a perfect sphere).
+"\n",
+    "```{math}\n",
+    ":label: absorbedradiation\n",
+    "\P_a=\alpha\cdot S \cdot A_n,
+    "```\n",
+"\n",
+    "```{math}\n",
+    ":label: emittedradiation\n",
+    "P_e = \epsilon \cdot \sigma \cdot T^4 \cdot A_{tot},
+    "```\n",
+Where \alpha is the solar absorptivity of the Earth, S is the solar energy reaching the Earth, and A_n is the surface area of the earth which is perpendicular to the sun (i.e. a circular cross section). In equation 3, ε_e is a measure of the emissivity of the earth, σ is the Stefan-Boltzmann constant, T is the temperature of the Earth, and A_tot is the total surface area of the planet (which we will model as a perfect sphere).
 
 **Q1) Using equations 1-3 and the area equations for a circle and a sphere, solve for the temperature of the Earth (T) using algebraic principles.** 
 
-
 Once solved, the equation should look like this: 
-	T=∜(Sa/4ϵσ)
-
+"\n",
+    "```{math}\n",
+    ":label: BlackBodyTemp\n",
+    "T = \left[ \frac {s\alpha} {4\epsilon\sigma}\right ]^{1/4},
+    "```\n",
 Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.
 **Q2) Solve this equation using the following values for the constants:**
  
@@ -27,14 +41,22 @@ After solving this equation, you should see that the temperature of the Earth is
 
 ## The Greenhouse Effect
 
-You have likely heard of the Greenhouse Effect in your science courses, as it is the reason the surface of the Earth is warm enough to be inhabitable. The atmosphere essentially serves as the walls of a greenhouse, letting the suns energy in while also making it more difficult for it to escape
+You have likely heard of the Greenhouse Effect in your science courses; it is the reason the surface of the Earth is warm enough to be inhabitable. The atmosphere acts as the walls of a greenhouse, letting the suns energy in while also making it more difficult for it to escape
 We will now attempt to account for this effect and change our model to better reflect reality. 
 We can refer to the temperature of the earth without an atmosphere and modeled as a black body as T_e (effective emission temperature). If we include another algebraic term which introduces the atmosphere and its effects on trapping heat, we come to the following equation.
-	(4) T_s=((S_0 a)/4σ  1/(1-ϵ_a/2))^(1/4)
+"\n",
+    "```{math}\n",
+    ":label: RadiationWithGreenhouse\n",
+    "T = \left[ \frac {s_0\alpha} {4\sigma} \frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4},
+    "```\n",
 Now, look at this equation, and notice the first term in parentheses. You should be able to simplify using Equation 4. Explain the exponent rule which helps you to do this.
 
 After simplifying, you should have gotten the following: 
-	(5) T_s=T_e (1/(1-ϵ_a/2))^(1/4)
+"\n",
+    "```{math}\n",
+    ":label: RadiationWithGreenhouse\n",
+    "T_s = T_e\left[\frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4},
+    "```\n",
 Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere. 
 
 **Q3)Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
