@@ -31,15 +31,16 @@ You have likely heard of the Greenhouse Effect in your science courses, as it is
 We will now attempt to account for this effect and change our model to better reflect reality. 
 We can refer to the temperature of the earth without an atmosphere and modeled as a black body as T_e (effective emission temperature). If we include another algebraic term which introduces the atmosphere and its effects on trapping heat, we come to the following equation.
 	(4) T_s=((S_0 a)/4σ  1/(1-ϵ_a/2))^(1/4)
-Now, look at this equation, and notice the first term in parentheses. You should be able to simplify using Equation 4. Explain the exponent rule which helps you to do this.
+
+**Q3) Now, look at this equation, and notice the first term in parentheses. You should be able to simplify using Equation 4. Explain the exponent rule which helps you to do this.**
 
 After simplifying, you should have gotten the following: 
 	(5) T_s=T_e (1/(1-ϵ_a/2))^(1/4)
 Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere. 
 
-**Q3)Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
+**Q4)Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
 
-**Q4)Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.**
+**Q5)Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.**
 
 After solving, you will notice that the average temperature of the earth is about **15 degrees Celsius**. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.
 
@@ -49,11 +50,11 @@ Now while this increase in temperature on the scale of single degrees may not se
 
 ![](../images/TempMap.png)
 
-**Q5)With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
+**Q6)With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
 
 In looking at the equation, you likely identified that the only parameter which human intervention may have effected is ϵ, the emissivity of the atmosphere. 
 
-**Q6)Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.**
+**Q7)Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.**
 
 Notice that as the emissivity approaches 1, the global temperature increases to 30 degrees Celsius. 
 
