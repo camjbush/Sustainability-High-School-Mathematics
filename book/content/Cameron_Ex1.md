@@ -59,9 +59,9 @@ After simplifying, you should have gotten the following:
     "```\n",
 Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere. 
 
-**Q3)Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
+**Q3) Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
 
-**Q4)Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.**
+**Q4) Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.**
 
 After solving, you will notice that the average temperature of the earth is about **15 degrees Celsius**. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.
 
@@ -71,12 +71,14 @@ Now while this increase in temperature on the scale of single degrees may not se
 
 ![](../images/TempMap.png)
 
-**Q5)With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
+**Q5) With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
 
 In looking at the equation, you likely identified that the only parameter which human intervention may have effected is ϵ, the emissivity of the atmosphere. 
 
-**Q6)Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.**
+**Q6) Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.**
 
 Notice that as the emissivity approaches 1, the global temperature increases to 30 degrees Celsius. 
 
 ![](../images/EmissivityPlot.png)
+
+**Want to add a last section which implements linear algebra**
