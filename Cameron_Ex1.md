@@ -17,6 +17,7 @@ Once solved, the equation should look like this:
 	T=∜(Sa/4ϵσ)
 
 Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.
+
 **Q2) Solve this equation using the following values for the constants:**
  
 | S | a | ϵ | σ |
